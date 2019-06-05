@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     public void creatData(View view) {
         mDatas = new ArrayList<>();
         long time = System.currentTimeMillis();
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 24000; i++) {
             FaceInfo faceInfo = new FaceInfo(null, i + "", i + 10, i % 2, "image", time,true);
             mDatas.add(faceInfo);
         }
